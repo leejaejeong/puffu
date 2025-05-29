@@ -143,30 +143,7 @@ function App() {
                                 </li>
                             );
                         })}
-                        {/* <li>
-                            <div className='puffu_icon'>
-                                <img src={puffuIcon} alt='푸푸아이콘' />
-                            </div>
-                            <p onClick={() => { goToAbout(); }}>ABOUT</p>
-                        </li>
-                        <li>
-                            <div className='puffu_icon'>
-                                <img src={puffuIcon} alt='푸푸아이콘' />
-                            </div>
-                            <p onClick={() => { goToBusinesses(); }}>BUSINESSES</p>
-                        </li>
-                        <li>
-                            <div className='puffu_icon'>
-                                <img src={puffuIcon} alt='푸푸아이콘' />
-                            </div>
-                            <p onClick={() => { goToWhy(); }}>WHY PUFFU</p>
-                        </li>
-                        <li>
-                            <div className='puffu_icon'>
-                                <img src={puffuIcon} alt='푸푸아이콘' />
-                            </div>
-                            <p onClick={() => { goToContact(); }}>CONTACT</p>
-                        </li> */}
+                        
                     </ul>
                 </nav>
                 <div className='btn_box'>
