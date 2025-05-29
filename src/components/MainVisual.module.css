@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.wrap {
+    position: relative;
+}
+
+.video_box {
+    width: 100%;
+    padding: 20px 60px;
+    box-sizing: border-box;
+}
+
+.video_box video {
+    width: 100%;
+    height: 84dvh;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.txt_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.txt_box h1 {
+    margin: 0 0 40px 0;
+    font-size: clamp(36px, 4.7vw, 90px);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.txt_box p {
+    font-size: clamp(18px, 1.7vw, 32px);
+    font-weight: 500;
+}
+
+.br {
+    display: none;
+}
+
+
+
+@media(max-width:768px) {
+    .video_box {
+        padding: 10px 15px;
+    }
+
+    .video_box video {
+        height: 90dvh;
+    }
+
+    .txt_box h1 {
+        margin: 0 0 20px 0;
+    }
+
+    .br {
+        display: block;
+    }
+}
